@@ -1,0 +1,63 @@
+html {
+	margin: 0;
+	padding: 0;
+	background: url(../art/wallpaper.jpg) 0px -170px no-repeat fixed;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+	font-size: 10pt;
+	overflow: hidden;
+	/*background: url(../art/ground_new3.png) 0px 20px;*/
+}
+
+#instruction {
+	position: absolute;
+	bottom: 0;
+	right:20px;
+	width: 30%;
+	margin: 0;
+	padding: 5px;
+	background-color: #333;
+	text-align: center;
+	border-radius: 12px;
+	box-shadow: 0px 1px 3px #000;
+}
+#instruction h1 {
+	font-family: Arial;
+	margin: 0;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 14px;
+}
+#instruction a {
+	color: #4488ff;
+}
+
+#stats { position: absolute; top:0; left: 0 }
+			#stats #fps { background: transparent !important }
+			#stats #fps #fpsText { color: #fff !important }
+			#stats #fps #fpsGraph { }
+
+#subtext {
+	position: absolute;
+	bottom: 40px;
+	width: 20%;
+	padding: 10px;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #fff;
+	background: #333;
+	text-align: center;
+	right: 20px;
+	border-radius: 12px;
+	box-shadow: 0px 1px 3px #000;
+}
+
+#inputVideo {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
